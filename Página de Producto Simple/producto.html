@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto - Página de Ejemplo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="product-container">
+        <section class="product-details">
+            <img src="producto.jpg" alt="Imagen del producto" class="product-image">
+            <div class="product-info">
+                <h1>Nombre del Producto</h1>
+                <p class="product-description">Descripción breve del producto que destaca sus principales características y beneficios.</p>
+                <p class="product-price">$49.99</p>
+                <button class="btn" id="addToCartButton">Agregar al Carrito</button>
+            </div>
+        </section>
+        <section class="product-comments">
+            <h2>Comentarios</h2>
+            <ul id="commentList" class="comment-list">
+                <!-- Los comentarios se añadirán aquí dinámicamente -->
+            </ul>
+            <div class="comment-form">
+                <textarea id="commentInput" placeholder="Escribe tu comentario"></textarea>
+                <button class="btn" id="postCommentButton">Enviar Comentario</button>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

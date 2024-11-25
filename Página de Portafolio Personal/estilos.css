@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 2em 0;
+}
+
+.header h1 {
+    font-size: 2.5em;
+}
+
+.about-me, .projects, .contact {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+    text-align: center;
+}
+
+.project-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 250px;
+    margin-bottom: 1.5em;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card h3 {
+    color: #333;
+    margin-top: 0.5em;
+}
+
+.project-card p {
+    color: #555;
+    padding: 0 1em 1em;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+}
+
+.contact input, .contact textarea {
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+}
+
+.btn {
+    padding: 0.75em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+#responseMessage {
+    text-align: center;
+    margin-top: 1em;
+    color: green;
+}

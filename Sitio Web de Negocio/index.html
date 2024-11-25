@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Negocio X - Soluciones de Tecnología</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>Negocio X</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Transformamos tu negocio con tecnología innovadora</h2>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>Soluciones a medida para cada tipo de empresa. ¡Haz crecer tu negocio con nosotros!</p>
+            <a href="#contacto" class="btn-primary">Contáctanos</a>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="section">
+        <div class="container">
+            <h2>Servicios</h2>
+            <div class="servicio">
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web a medida para tu empresa, desde landing pages hasta plataformas complejas.</p>
+            </div>
+            <div class="servicio">
+                <h3>Consultoría IT</h3>
+                <p>Ofrecemos asesoría especializada para la optimización de procesos tecnológicos en tu empresa.</p>
+            </div>
+            <div class="servicio">
+                <h3>Marketing Digital</h3>
+                <p>Te ayudamos a aumentar tu presencia online con estrategias de SEO, PPC y redes sociales.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros Section -->
+    <section id="nosotros" class="section bg-light">
+        <div class="container">
+            <h2>Nosotros</h2>
+            <p>Somos un equipo de profesionales apasionados por la tecnología, dedicados a ofrecer soluciones innovadoras que transformen tu empresa. Nuestra misión es ayudarte a escalar y optimizar tu negocio con herramientas tecnológicas de vanguardia.</p>
+        </div>
+    </section>
+
+    <!-- Portafolio Section -->
+    <section id="portafolio" class="section">
+        <div class="container">
+            <h2>Portafolio</h2>
+            <div class="proyecto">
+                <img src="https://via.placeholder.com/500x300" alt="Proyecto 1">
+                <div class="info">
+                    <h3>Plataforma E-Commerce</h3>
+                    <p>Desarrollamos una plataforma e-commerce robusta para empresas del sector retail.</p>
+                    <br>
+                    <br>
+                    <a href="#" class="btn-secondary">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="https://via.placeholder.com/500x300" alt="Proyecto 2">
+                <div class="info">
+                    <h3>Aplicación Móvil</h3>
+                    <p>Creación de una app móvil que optimiza la gestión de inventarios para pequeñas empresas.</p>
+                    <br>
+                    <br>
+                    <a href="#" class="btn-secondary">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section bg-dark">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Tu nombre" required>
+                <input type="email" id="email" placeholder="Tu correo electrónico" required>
+                <textarea id="message" placeholder="Tu mensaje" required></textarea>
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+            <p id="form-response"></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Negocio X. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

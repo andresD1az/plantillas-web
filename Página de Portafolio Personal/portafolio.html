@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Mi Portafolio</h1>
+        <p>Desarrollador Web | Diseñador UI/UX | Entusiasta de la Tecnología</p>
+    </header>
+
+    <section class="about-me">
+        <h2>Sobre Mí</h2>
+        <p>Soy un desarrollador apasionado con experiencia en desarrollo web y diseño de interfaces. Me especializo en crear experiencias digitales intuitivas y atractivas. Aquí encontrarás algunos de mis proyectos recientes.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Proyectos</h2>
+        <div class="project-gallery">
+            <div class="project-card">
+                <img src="proyecto1.jpg" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="project-card">
+                <img src="proyecto2.jpg" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="project-card">
+                <img src="proyecto3.jpg" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <!-- Agrega más proyectos según sea necesario -->
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <input type="text" id="nombre" placeholder="Tu Nombre" required>
+            <input type="email" id="email" placeholder="Tu Correo" required>
+            <textarea id="mensaje" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit" class="btn">Enviar Mensaje</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

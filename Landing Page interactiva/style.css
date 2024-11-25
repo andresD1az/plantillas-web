@@ -1,0 +1,182 @@
+/* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #FF6F61;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1600x800') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: #FF6F61;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn-primary {
+    background-color: #FF6F61;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn-primary:hover {
+    background-color: #FF3D2E;
+}
+
+/* Secciones */
+.section {
+    padding: 60px 20px;
+}
+
+.bg-dark {
+    background-color: #333;
+}
+
+.text-light {
+    color: white;
+}
+
+.pricing-plan {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-plan h3 {
+    font-size: 2em;
+    color: #FF6F61;
+    margin-bottom: 10px;
+}
+
+.pricing-plan p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.pricing-plan .btn-secondary {
+    background-color: #FF6F61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-plan .btn-secondary:hover {
+    background-color: #FF3D2E;
+}
+
+/* Testimonios */
+.testimonial {
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonial h4 {
+    font-weight: bold;
+    color: #FF6F61;
+}
+
+/* Formulario de contacto */
+form input, form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #FF6F61;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FF3D2E;
+}
+
+/* Footer */
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
